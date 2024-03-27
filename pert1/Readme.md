@@ -11,28 +11,28 @@ _"Paradigma pemrograman adalah cara berpikir atau pendekatan dalam menulis kode 
 
 > **2. Pemrograman Berorientasi Objek (OOP - Object-Oriented Programming) :**
 >> Paradigma ini menggunakan konsep objek dan kelas sebagai pusat dari pemrograman. Objek merepresentasikan entitas yang memiliki atribut (data) dan metode (fungsi) yang dapat digunakan untuk berinteraksi dengan objek lain.
->> Konsep-konsep dalam OOP meliputi enkapsulasi, pewarisan, dan polimorfisme.
+>> Konsep-konsep dalam OOP meliputi enkapsulasi, pewarisan, dan polimorfisme.<br>
 >> Contoh bahasa pemrograman berorientasi objek adalah Java, C++, dan Python.
 
 > **3. Pemrograman Fungsional :**
 >> Paradigma ini berfokus pada fungsi sebagai unit utama dalam pemrograman.
 >> Fungsi dianggap sebagai nilai dan dapat digunakan sebagai parameter atau nilai kembali dari fungsi lain.
->> Imutabilitas dan penghindaran efek samping adalah prinsip utama dalam pemrograman fungsional.
+>> Imutabilitas dan penghindaran efek samping adalah prinsip utama dalam pemrograman fungsional.<br>
 >> Contoh bahasa pemrograman fungsional adalah Haskell, Lisp, dan Scala.
 
 > **4. Pemrograman Logika :**
 >> Paradigma ini menggunakan aturan logika untuk menentukan alur eksekusi program.
->> Program ditulis dalam bentuk fakta dan aturan, dan kemudian sistem logika menentukan solusi atau jawaban berdasarkan aturan tersebut.
+>> Program ditulis dalam bentuk fakta dan aturan, dan kemudian sistem logika menentukan solusi atau jawaban berdasarkan aturan tersebut.<br>
 >> Prolog adalah salah satu contoh bahasa pemrograman logika.
 
 > **5. Pemrograman Deklaratif :**
 >> Paradigma ini mendeskripsikan apa yang ingin dicapai tanpa harus menentukan langkah-langkah secara spesifik.
->> Program mendefinisikan hubungan antara input dan output tanpa mengharuskan programmer untuk mengontrol alur eksekusi secara detail.
+>> Program mendefinisikan hubungan antara input dan output tanpa mengharuskan programmer untuk mengontrol alur eksekusi secara detail.<br>
 >> Contoh paradigma deklaratif termasuk pemrograman fungsional dan pemrograman logika.
 
 > **6. Pemrograman Berbasis Aturan (Rule-Based Programming) :**
 >> Paradigma ini menggunakan aturan atau kebijakan sebagai dasar untuk mengambil keputusan dalam program.
->> Program berisi aturan-aturan yang menyatakan apa yang harus dilakukan dalam situasi tertentu.
+>> Program berisi aturan-aturan yang menyatakan apa yang harus dilakukan dalam situasi tertentu.<br>
 >> Sistem berbasis aturan seperti CLIPS dan JESS digunakan dalam pemrograman berbasis aturan.
 
 ```
