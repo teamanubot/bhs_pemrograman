@@ -39,5 +39,5 @@ Berikut adalah beberapa paradigma pemrograman yang umum digunakan:
 ```
 Setiap paradigma memiliki kelebihan dan kekurangan, serta cocok untuk penggunaan tertentu tergantung pada kompleksitas proyek dan kebutuhan spesifiknya.
 
-Para programmer memilih paradigma yang paling sesuai dengan masalah yang ingin mereka selesaikan dan dengan preferensi pribadi mereka dalam gaya pemrograman..
+Para programmer memilih paradigma yang paling sesuai dengan masalah yang ingin mereka selesaikan dan dengan preferensi pribadi mereka dalam gaya pemrograman.
 ```
