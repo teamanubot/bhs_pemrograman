@@ -36,5 +36,7 @@ _"Paradigma pemrograman adalah cara berpikir atau pendekatan dalam menulis kode 
 >> Sistem berbasis aturan seperti CLIPS dan JESS digunakan dalam pemrograman berbasis aturan.
 
 ```
-Setiap paradigma memiliki kelebihan dan kekurangan, serta cocok untuk penggunaan tertentu tergantung pada kompleksitas proyek dan kebutuhan spesifiknya. Para programmer memilih paradigma yang paling sesuai dengan masalah yang ingin mereka selesaikan dan dengan preferensi pribadi mereka dalam gaya pemrograman.
+Setiap paradigma memiliki kelebihan dan kekurangan, serta cocok untuk penggunaan tertentu tergantung pada kompleksitas proyek dan kebutuhan spesifiknya.
+
+Para programmer memilih paradigma yang paling sesuai dengan masalah yang ingin mereka selesaikan dan dengan preferensi pribadi mereka dalam gaya pemrograman.
 ```
