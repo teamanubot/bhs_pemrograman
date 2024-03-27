@@ -19,7 +19,7 @@
 
 # TAMBAHAN
 > `touch <nama file>`
->> _"Perintah touch pada sistem Linux/Unix digunakan untuk membuat file kosong baru atau mengubah timestamp dari file yang sudah ada."_
+>> _"Perintah touch pada sistem Linux/Unix digunakan untuk membuat file kosong baru atau mengubah timestamp dari file yang sudah ada."_<br>
 >> Beberapa kegunaan umum dari perintah touch adalah :
 >>> **Membuat File Baru :** Jika Anda memberikan nama file yang belum ada, touch akan membuat file kosong dengan nama tersebut di direktori saat ini.<br><br>
 >>> **Mengubah Timestamp File :** Jika file sudah ada, touch dapat digunakan untuk mengubah waktu akses (atime) dan waktu modifikasi (mtime) dari file tersebut. Hal ini berguna terutama jika Anda ingin memperbarui timestamp suatu file tanpa mengubah isinya.
