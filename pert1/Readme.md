@@ -2,7 +2,8 @@
 _Bahasa pemrograman adalah seperangkat aturan dan sintaks yang digunakan untuk menulis instruksi atau kode yang dapat dipahami oleh komputer. Tujuan utama dari bahasa pemrograman adalah untuk menginstruksikan komputer agar melakukan tugas tertentu atau mengeksekusi program-program yang telah ditulis._
 
 # Paradigma Pemrograman
-_"Paradigma pemrograman adalah cara berpikir atau pendekatan dalam menulis kode program yang mengatur bagaimana program didefinisikan, dirancang, dan diimplementasikan. Setiap paradigma memiliki karakteristik dan aturan tertentu yang memengaruhi bagaimana program akan ditulis dan diorganisir."_ Berikut adalah beberapa paradigma pemrograman yang umum digunakan:
+_"Paradigma pemrograman adalah cara berpikir atau pendekatan dalam menulis kode program yang mengatur bagaimana program didefinisikan, dirancang, dan diimplementasikan. Setiap paradigma memiliki karakteristik dan aturan tertentu yang memengaruhi bagaimana program akan ditulis dan diorganisir."_<br>
+Berikut adalah beberapa paradigma pemrograman yang umum digunakan:
 
 > **1. Pemrograman Prosedural :**
 >> Paradigma ini berfokus pada prosedur atau langkah-langkah yang dilakukan untuk menyelesaikan suatu tugas.
