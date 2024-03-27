@@ -21,11 +21,11 @@
 > `touch <nama file>`
 >> _"Perintah touch pada sistem Linux/Unix digunakan untuk membuat file kosong baru atau mengubah timestamp dari file yang sudah ada."_
 >> Beberapa kegunaan umum dari perintah touch adalah :
->>> **Membuat File Baru :** Jika Anda memberikan nama file yang belum ada, touch akan membuat file kosong dengan nama tersebut di direktori saat ini.<br>
+>>> **Membuat File Baru :** Jika Anda memberikan nama file yang belum ada, touch akan membuat file kosong dengan nama tersebut di direktori saat ini.<br><br>
 >>> **Mengubah Timestamp File :** Jika file sudah ada, touch dapat digunakan untuk mengubah waktu akses (atime) dan waktu modifikasi (mtime) dari file tersebut. Hal ini berguna terutama jika Anda ingin memperbarui timestamp suatu file tanpa mengubah isinya.
 
 > `touch -t <YYYYMMDDHHMM> <nama file>`
->> _"Perintah yang digunakan untuk mengatur timestamp pada sebuah file"_
+>> _"Perintah yang digunakan untuk mengatur timestamp pada sebuah file"_<br>
 >> Berikut ini adalah penjelasan dalam mengatur timestamp :
 >>> - `YYYY` adalah tahun (4 digit)
 >>> - `MM` adalah bulan (2 digit)
