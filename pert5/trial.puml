@@ -1,0 +1,10 @@
+@startuml Trial
+    start
+    :Masukkan angka 1;
+    :Masukkan angka 2;
+    while (input angka 1, angka 2)
+    :Lakukan operasi matematika;
+    :Tampilkan hasil operasi;
+    endwhile
+    stop
+@enduml
