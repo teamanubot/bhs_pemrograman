@@ -1,0 +1,31 @@
+@startuml
+start
+
+:Menu;
+:Masukkan Angka Pertama;
+:angkaPertama = input;
+:Masukkan Angka Kedua;
+:angkaKedua = input;
+
+:tambah();
+:Penjumlahan = angkaPertama + angkaKedua;
+:Tampilkan Penjumlahan;
+
+:kurang();
+:Pengurangan = angkaPertama - angkaKedua;
+:Tampilkan Pengurangan;
+
+:kali();
+:Perkalian = angkaPertama * angkaKedua;
+:Tampilkan Perkalian;
+
+:bagi();
+if (angkaKedua != 0) then (yes)
+  :Pembagian = angkaPertama / angkaKedua;
+  :Tampilkan Pembagian;
+else (no)
+  :Pembagian: Error (pembagi tidak boleh 0);
+endif
+
+stop
+@enduml
