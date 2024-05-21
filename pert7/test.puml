@@ -1,0 +1,50 @@
+@startuml sample
+
+    left to right direction
+
+    actor User as "User"
+    rectangle program{
+        User -- (Menu)
+        (Menu) --> (Pilihan 1) : extends
+        (Menu) --> (Pilihan 2) : extends
+        (Menu) --> (Pilihan 3) : extends
+        (Pilihan 1) --> (Makanan) : extends
+        (Pilihan 2) --> (Minuman) : extends
+        (Pilihan 3) --> (Exit)
+
+        (Makanan) --> (Pecel Lele) : extends
+        (Makanan) --> (Nasi Goreng) : extends
+        (Makanan) --> (Kembali Ke Menu) : extends
+        (Kembali Ke Menu) --> (Menu)
+        
+        (Minuman) --> (Es Teh) : extends
+        (Minuman) --> (Es Jeruk) : extends
+        (Minuman) --> (Kembali Ke Menu) : extends
+
+        (Pecel Lele) --> (Qty Pecel Lele) : extends
+        (Pecel Lele) --> (Total Pecel Lele) : extends
+        (Pecel Lele) --> (Kembali Ke Makanan) : extends
+        (Qty Pecel Lele) --> (input Qty Pecel Lele) : include
+        (Total Pecel Lele) --> (output Total Pecel Lele) : include
+        (Kembali Ke Makanan) --> (Makanan)
+
+        (Nasi Goreng) --> (Qty Nasi Goreng) : extends
+        (Nasi Goreng) --> (Total Nasi Goreng) : extends
+        (Nasi Goreng) --> (Kembali Ke Makanan) : extends
+        (Qty Nasi Goreng) --> (input Qty Nasi Goreng) : include
+        (Total Nasi Goreng) --> (output Nasi Goreng) : include
+
+        (Es Teh) --> (Qty Es Teh) : extends
+        (Es Teh) --> (Total Es Teh) : extends
+        (Es Teh) --> (Kembali Ke Minuman) : extends
+        (Qty Es Teh) --> (input Qty Es Teh) : include
+        (Total Es Teh) --> (output Total Es Teh) : include
+        (Kembali Ke Minuman) --> (Minuman)
+
+        (Es Jeruk) --> (Qty Es Jeruk) : extends
+        (Es Jeruk) --> (Total Es Jeruk) : extends
+        (Es Jeruk) --> (Kembali Ke Minuman) : extends
+        (Qty Es Jeruk) --> (input Qty Es Jeruk) : include
+        (Total Es Jeruk) --> (output Total Es Jeruk) : include
+    }
+@enduml
