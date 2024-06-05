@@ -1,7 +1,7 @@
 # Pemahaman Bisnis terhadap Rencana/Ide yang Diinginkan
 
 ## Tujuan Bisnis
-- Jadi, tujuan bisnis ini adalah untuk mendukung jual beli produk elektronik melalui platform e-commerce. Hal ini mencakup pembuatan platform yang memungkinkan pengguna untuk mendaftar, masuk, menelusuri produk elektronik, menambahkan produk ke keranjang belanja, dan melakukan proses checkout. Dengan demikian, fokusnya adalah pada penjualan produk elektronik secara online. Apakah ini memperjelas tujuan bisnis yang dimaksud?
+- Jadi, tujuan bisnis ini adalah untuk mendukung jual beli produk elektronik melalui platform e-commerce. Hal ini mencakup pembuatan platform yang memungkinkan pengguna untuk mendaftar, masuk, menelusuri produk elektronik, menambahkan produk ke keranjang belanja, dan melakukan proses checkout. Dengan demikian, fokusnya adalah pada penjualan produk elektronik secara online.
 
 ## Fitur Utama
 - **Pendaftaran Pengguna**: Memungkinkan pengguna baru untuk membuat akun dengan nama pengguna dan kata sandi.
