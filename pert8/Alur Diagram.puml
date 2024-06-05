@@ -1,0 +1,86 @@
+@startuml
+start
+
+:Menu Utama;
+:1. Daftar;
+:2. Masuk;
+:3. Keluar;
+
+if (Menu Utama == 1) then
+    :Daftar Pengguna;
+    :Masukkan Nama Pengguna;
+    :Masukkan Kata Sandi;
+    :Pengguna Berhasil Terdaftar;
+    :Kembali ke Menu Utama;
+    -> :Menu Utama;
+else
+    if (Menu Utama == 2) then
+        :Masuk Pengguna;
+        :Masukkan Nama Pengguna;
+        :Masukkan Kata Sandi;
+        if (Validasi Nama Pengguna dan Kata Sandi) then (Valid)
+            :Berhasil Masuk;
+            :Menu Pengguna;
+            :1. Lihat Produk;
+            :2. Tambah ke Keranjang;
+            :3. Checkout;
+            :4. Logout;
+
+            if (Menu Pengguna == 1) then
+                :Lihat Produk;
+                :Tampilkan Daftar Produk;
+                :Kembali ke Menu Pengguna;
+                -> :Menu Pengguna;
+            else
+                if (Menu Pengguna == 2) then
+                    :Tambah ke Keranjang;
+                    :Masukkan ID Produk;
+                    if (Validasi ID Produk) then (Valid)
+                        :Produk Ditambahkan ke Keranjang;
+                    else (Tidak Valid)
+                        :ID Produk Tidak Valid;
+                    endif
+                    :Kembali ke Menu Pengguna;
+                    -> :Menu Pengguna;
+                else
+                    if (Menu Pengguna == 3) then
+                        :Checkout;
+                        if (Keranjang Kosong?) then (Tidak Kosong)
+                            :Tampilkan Produk di Keranjang;
+                            :Tampilkan Total Harga;
+                        else (Kosong)
+                            :Keranjang Kosong;
+                        endif
+                        :Keranjang Dikosongkan;
+                        :Kembali ke Menu Pengguna;
+                        -> :Menu Pengguna;
+                    else
+                        if (Menu Pengguna == 4) then
+                            :Logout;
+                            :Kembali ke Menu Utama;
+                            -> :Menu Utama;
+                        else
+                            :Opsi Tidak Valid;
+                            :Kembali ke Menu Pengguna;
+                            -> :Menu Pengguna;
+                        endif
+                    endif
+                endif
+            endif
+        else (Tidak Valid)
+            :Nama Pengguna atau Kata Sandi Salah;
+            :Kembali ke Menu Utama;
+            -> :Menu Utama;
+        endif
+    else
+        if (Menu Utama == 3) then
+            stop
+        else
+            :Opsi Tidak Valid;
+            :Kembali ke Menu Utama;
+            -> :Menu Utama;
+        endif
+    endif
+endif
+
+@enduml

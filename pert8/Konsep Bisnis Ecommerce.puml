@@ -1,0 +1,65 @@
+@startuml
+!define RECTANGLE class
+
+RECTANGLE Pengguna {
+  - id: int
+  - namaPengguna: string
+  - kataSandi: string
+}
+
+RECTANGLE Produk {
+  - id: int
+  - nama: string
+  - harga: int
+}
+
+RECTANGLE Keranjang {
+  - item: Produk[]
+  + tambahItem(produk: Produk)
+  + lihatItem(): Produk[]
+  + checkout(): int
+}
+
+RECTANGLE Sistem {
+  + menuUtama()
+  + daftarPengguna()
+  + masukPengguna()
+  + lihatProduk()
+  + tambahKeKeranjang()
+  + checkout()
+}
+
+Pengguna -- Sistem : berinteraksi
+Sistem --> Pengguna : daftarPengguna()
+Sistem --> Pengguna : masukPengguna()
+Sistem --> Produk : lihatProduk()
+Sistem --> Keranjang : tambahKeKeranjang()
+Sistem --> Keranjang : checkout()
+
+note right of Sistem::menuUtama
+  1. Daftar
+  2. Masuk
+  3. Keluar
+end note
+
+note right of Sistem::daftarPengguna
+  Pengguna memasukkan nama pengguna dan kata sandi
+end note
+
+note right of Sistem::masukPengguna
+  Pengguna memasukkan nama pengguna dan kata sandi
+end note
+
+note right of Sistem::lihatProduk
+  Menampilkan daftar produk
+end note
+
+note right of Sistem::tambahKeKeranjang
+  Menambahkan produk yang dipilih ke keranjang
+end note
+
+note right of Sistem::checkout
+  Menampilkan item di keranjang dan total harga
+end note
+
+@enduml
