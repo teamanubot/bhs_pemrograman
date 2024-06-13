@@ -11,9 +11,9 @@ services:
       - ./mariadb:/var/lib/mysql
       - ./conf.d:/etc/mysql/conf.d:ro
     environment:
-      MYSQL_USER: teamanubot
-      MYSQL_PASSWORD: admin123!.
-      MYSQL_ROOT_PASSWORD: admin123
+      MYSQL_USER: djambred
+      MYSQL_PASSWORD: p455w0rd1!.
+      MYSQL_ROOT_PASSWORD: p455w0rd
       TZ: Asia/Jakarta
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
@@ -26,8 +26,8 @@ services:
     volumes:
       - ./postgres:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=admin123
-      - POSTGRES_USER=teamanubot
+      - POSTGRES_PASSWORD=p455w0rd
+      - POSTGRES_USER=djambred
       - POSTGRES_DB=bhs_pemrograman
       - SERVICE_NAME=postgres
       - SERVICE_TAGS=dev
@@ -40,7 +40,7 @@ services:
       - "27017:27017"
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: admin123
+      MONGO_INITDB_ROOT_PASSWORD: p455w0rd
     volumes:
       - ./mongo:/mongo/db
 
