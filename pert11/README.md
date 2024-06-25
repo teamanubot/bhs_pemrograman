@@ -1,3 +1,0 @@
-# rnd
-
-Just Try Out
