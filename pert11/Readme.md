@@ -7,7 +7,7 @@
 
 
 ## Langkah - Langkah
-1. `cd pert9`
+1. `cd pert9/db`
 2. [Build atau Jalankan](#command)
 3. `cd pert11`
 4. [Build atau Jalankan](#command)
