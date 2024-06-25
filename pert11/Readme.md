@@ -25,3 +25,10 @@
 - Stop : `docker-compose stop` (jika sudah dibuild)
 - Remove : `docker-compose down`
 - Status Container : `docker ps`
+
+### Penjelasan GET, POST, PUT, dan DELETE
+- GET : Metode GET digunakan untuk membaca atau mengambil data dari server. Ini adalah permintaan yang aman dan idempotent (menghasilkan hasil yang sama tidak peduli berapa kali permintaan itu dieksekusi).
+- POST : Metode POST digunakan untuk membuat sumber daya baru di server. Data yang dikirimkan dalam permintaan POST biasanya disertakan dalam body permintaan.
+- PUT : Metode PUT digunakan untuk memperbarui sumber daya yang ada di server atau membuat sumber daya baru jika belum ada. Ini juga idempotent.
+- DELETE : Metode DELETE digunakan untuk menghapus sumber daya dari server. Ini juga idempotent.
+- Istilah "idempotent" dalam konteks HTTP dan REST API mengacu pada operasi yang dapat dilakukan berkali-kali tanpa menghasilkan efek tambahan setelah operasi pertama. Artinya, setelah operasi pertama berhasil, operasi berikutnya tidak akan mengubah keadaan lebih lanjut atau menghasilkan hasil yang berbeda.
