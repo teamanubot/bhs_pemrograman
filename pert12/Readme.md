@@ -35,7 +35,7 @@
 16. > kembali ke vscode
 17. > lakukan perubahan pada src -> app -> Http
     >> Controllers -> UserController.php
-    >>> `use Illuminate\Support\Facades\DB;` tambahkan dibawah `use Illuminate\Http\Request;`<br>
+    >>> - `use Illuminate\Support\Facades\DB;` tambahkan dibawah `use Illuminate\Http\Request;`<br>
     >>> tambahkan dibawah ini setelah `public function index() {`
     >>> - `$query = DB::connection('mysql')->table('users')->get();`
     >>> - `return response()->json($query, 200);`
