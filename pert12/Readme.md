@@ -1,4 +1,4 @@
-# Swagger UI (OpenAPI)
+# Rest API
 
 ## Starterpack
 - [Windows Subsystem for Linux](https://www.microsoft.com/store/productId/9PDXGNCFSCZV)
@@ -63,9 +63,9 @@
 19. > lakukan perubahan pada src -> routes -> web.php
     >> tambahkan dibawah ini setelah `$router->get('/', function () use ($router) {return $router->app->version();});`
     >> - `$router->group(['prefix' => 'api/v1/user'], function () use ($router) {$router->get('/', ['uses' => 'UserController@index']);\n});`
-20. kembali ke terminal
-21. `php artisan migrate:fresh --seed`
-22. buka Postman (login terlebih dahulu)
-23. pilih tab Collection kemudian buat folder user lalu add request (namanya bebas)
-24. kemudian di GET bagian tengahnya isi dengan `localhost/api/v1/user` setelah itu klik send
-25. udah kelar mending uninstall aja ~
+20. > kembali ke terminal
+21. > `php artisan migrate:fresh --seed`
+22. > buka Postman (login terlebih dahulu)
+23. > pilih tab Collection kemudian buat folder user lalu add request (namanya bebas)
+24. > kemudian di GET bagian tengahnya isi dengan `localhost/api/v1/user` setelah itu klik send
+25. > udah kelar mending uninstall aja ~
