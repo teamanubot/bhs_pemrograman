@@ -56,8 +56,8 @@
     >>>> `$this->call([UserSeeder::class]);` Tambahkan didalam `public function run() {`<br>
 
     >>> UserSeeder.php<br>
-    >>>> `use Illuminate\Support\Facades\DB;` tambahkan dibawah `use Illuminate\Database\Seeder;`<br>
-    
+    >>>> - `use Illuminate\Support\Facades\DB;` tambahkan dibawah `use Illuminate\Database\Seeder;`<br>
+
     >>>> tambahkan dibawah ini didalam `public function run(): void {`
     >>>> - `$timestamp = \Carbon\Carbon::now()->toDateTimeString();`
     >>>> - `DB::table('users')->insert(['username' => 'rivai', 'password' => 'ganteng banget', 'created_at' => $timestamp, 'updated_at' => $timestamp]);`
