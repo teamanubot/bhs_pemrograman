@@ -63,7 +63,7 @@
     >>>> - `DB::table('users')->insert(['username' => 'rivai', 'password' => 'ganteng banget', 'created_at' => $timestamp, 'updated_at' => $timestamp]);`
 19. > lakukan perubahan pada src -> routes -> web.php
     >> tambahkan dibawah ini setelah `$router->get('/', function () use ($router) {return $router->app->version();});`
-    >> - `$router->group(['prefix' => 'api/v1/user'], function () use ($router) {$router->get('/', ['uses' => 'UserController@index']);\n});`
+    >> - `$router->group(['prefix' => 'api/v1/user'], function () use ($router) {$router->get('/', ['uses' => 'UserController@index']);});`
 20. > kembali ke terminal
 21. > `php artisan migrate:fresh --seed`
 22. > buka Postman (login terlebih dahulu)
