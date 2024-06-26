@@ -29,7 +29,7 @@
     >> - tambahkan `$app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::Class);` dibawahnya `$app->withEloquent();`
 11. > kembali keterminal masukkan perintah `php artisan key:generate`
 12. > `php artisan migrate`
-13. > `chmode 777 -R stroage/*`
+13. > `chmod 777 -R stroage/*`
 14. > `rm -rf app/Models/User.php`
 15. > `php artisan make:Model User -mcs --resource`
 16. > kembali ke vscode
