@@ -81,7 +81,7 @@
 22. > buka Postman (login terlebih dahulu)
 23. > pilih tab Collection kemudian buat folder user lalu add request (namanya bebas)
 24. > kemudian di GET bagian tengahnya isi dengan `localhost/api/v1/user`
-25. > klik Authorization dan pilih Api Key Auth Type dan isi seperti dibawah ini : 
+25. > klik Authorization dan pilih Api Key di Auth Type dan isi seperti dibawah ini : 
     >> Key : `token` <br>
     >> Value : `ganteng banget` <br>
     >> Add to : `Header`
