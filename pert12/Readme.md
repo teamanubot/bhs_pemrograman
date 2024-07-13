@@ -11,14 +11,14 @@
 1. > `cd pert12` (jika sudah didalam direktori tidak perlu)
 2. > `code .` (jika sudah membuka vscode di direktori saat ini/pert12 tidak perlu)
 3. > `docker-compose up -d --build`
-4. > `docker exec -it uas_pemrog bash`
+4. > `docker exec -it api_pemrog bash`
 5. > `composer create-project laravel/lumen .`
 6. > `composer require flipbox/lumen-generator` (jika error `rm -rf ./composer.lock` kemudian ketik ulang perintah require)
 7. > `mv .env.example .env`
 8. > `nano .env`
 9. > Lakukan perubahan berikut ini
-   >> - `DB_HOST=database2`
-   >> - `DB_DATABASE=uas_pemrog`
+   >> - `DB_HOST=database`
+   >> - `DB_DATABASE=api_pemrog`
    >> - `DB_USERNAME=root`
    >> - `DB_PASSWORD=admin123`
    >> - CTRL+S
